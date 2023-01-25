@@ -21,13 +21,15 @@
 .header {
     width: 100%;
     height: 10%;
-    background: darkgrey;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.main {}
-.fotter{}
+.main {
+    justify-content: center;
+    box-sizing: border-box;
+}
+
 .happy_birthday {
     font-size: 30px;
 }
@@ -40,10 +42,34 @@
 .month{
     font-size: 30px;
 }
-.icon {}
-.conteiner_main {}
-.info {}
-.photo {}
+h1 {
+    margin: 0;
+}
+ .nameH1_2 {
+     position: relative;
+     left: 25%;
+ }
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+
+}
+.conteiner_main {
+    justify-content: space-between;
+}
+.info {
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.photo {
+    opacity: 90%;
+}
 .qr {}
+ .fotter{}
 .tr {}
 .instagram_tr {}
