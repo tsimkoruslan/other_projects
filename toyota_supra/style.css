@@ -11,10 +11,10 @@ body {
 .phater {
     box-sizing: border-box;
     justify-content: center;
+
 }
 
 .conteiner {
-
     box-sizing: border-box;
     width: 1300px;
     height: 100vh;
@@ -88,9 +88,7 @@ body {
 
 }
 
-}
 .conteiner_main {
-
     justify-content: space-between;
     box-sizing: border-box;
 }
