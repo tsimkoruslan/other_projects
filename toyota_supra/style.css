@@ -17,10 +17,10 @@ body {
 .conteiner {
     box-sizing: border-box;
     width: 1300px;
-    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0px;
 }
 
 .header {
